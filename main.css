@@ -1,0 +1,102 @@
+.bg-image{
+    background-image: url('./img/House2.jpg');
+    height: 38pc;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+body{
+    background-color: white;
+}
+ul{
+    display: flex;
+    gap: 2%;
+    padding: 40px 10%;
+    list-style: none;
+    justify-content: flex-end;
+}
+.card1{
+    width:  13pc;
+    height: 17pc;
+    background-color: aqua;
+}
+.card{
+    background-color: white;
+    height: 14pc;
+    width: 19pc;
+    display: grid;
+    align-content: center;
+    border-radius: 10px;
+    margin: 0;
+}
+.card_holder{
+    display:flex;
+    margin-top: -3%;
+    gap:7%;
+    width: fit-content;
+    height: fit-content;
+}
+.card_holder2{
+    display:flex;
+    padding: 0;
+    gap:2%;
+}
+.Img_1{
+    background-color: rgb(0, 255, 89);
+    display: contents;
+}
+.Btn_1{
+    width: fit-content;
+    height: fit-content;
+    background-color:rgb(242, 137, 0);
+    color: white;
+    border-radius: 25px;
+}
+.content_holder{
+    display:flex;
+    gap:5%;
+    margin-top: 5%;
+    width: fit-content; 
+    height: fit-content;
+}
+.contenrt_1{
+    width: 35%; 
+    display: grid; 
+    margin: 0;
+}
+.img1{
+    width:30pc;
+    height: fit-content;
+}
+.Img_end{
+    width: 27%;
+    background-color: transparent;
+}
+@media screen and (max-width:905px) {
+    .card_holder{
+        display: grid;
+        gap:5%;
+    width: fit-content;
+    }
+    .card_holder2{
+        display: grid;
+        gap:2%;
+    width: fit-content;
+    }
+    .card{
+        width: 100%;
+    }
+    .content_holder{
+        display: grid;
+        margin-top: 30%;
+    }
+    .contenrt_1{
+        width: 100%;
+    }
+    .img1{
+        width: 100%;
+        height: fit-content;
+    }
+    .Img_end{
+        width: 80%;
+    } 
+}
